@@ -1,0 +1,61 @@
+.home-details{
+          width:50%;
+          margin-top:200px;
+}
+
+.home{
+          display: flex;
+          justify-content: space-evenly;
+          margin: auto;
+          align-items: center;
+          width: 90%;
+}
+
+.computer-photo{
+          margin-top: 100px;
+}
+
+.title{
+          font-size: 30px;
+}
+
+@media screen and (max-width:700px){
+          .title{
+                    font-size: 20px;
+          }
+
+          .computer-photo{
+                    width: 400px;
+                    height: 400px;
+          }
+}
+
+@media screen and (max-width:525px){
+          .computer-photo{
+                    width: 200px;
+                    height: 200px;
+          }
+}
+
+@media screen and (max-width:400px){
+          .home{
+                    display: block;
+                    width: 100%;
+                    /* margin-top: -200px; */
+                    width:80%;
+                    margin:auto;
+                    
+                    
+          }
+
+          .computer-photo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          
+                    /* height: 300px;
+                    width: 300px; */
+          }
+}
+
+

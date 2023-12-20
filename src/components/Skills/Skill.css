@@ -1,0 +1,10 @@
+.skill-title h1{
+          text-align: center;
+          font-size: 40px;
+}
+
+.skill-title{
+          width: 80%;
+          margin: auto;
+          margin-bottom: 100px;
+}

@@ -1,0 +1,111 @@
+.carousel{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 90%;
+          margin: auto;
+}
+
+.slider-item{
+          display: block;
+          justify-content: center;
+          align-items: center;
+          margin: 60px;
+          color: white;
+          padding: 20px;
+        border: 4px solid white;
+        border-radius: 20px 0px;
+        width:350px;
+                
+          
+}
+
+.slider-item{
+        filter: drop-shadow(
+      3px 3px 8px var(--shadow-color)
+    );
+    --shadow-color: hsl(220deg 100% 55%);
+        
+}
+
+
+.skills-name{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+
+.Carousel-slider{
+          width:1100px;
+          margin: 0px 90px;
+          display: flex;
+          overflow-x: scroll;
+          
+}
+
+.Carousel-slider::-webkit-scrollbar {
+        display: none;
+}
+
+
+
+.skill-logo{
+        box-shadow: 0px 0px 5px 2px #ffffff;
+        background-color: white;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:200px;
+}
+
+.skills-name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+
+@media screen and (max-width:1300px) {
+        .Carousel-slider{
+                width:630px
+        }
+}
+
+@media screen and (max-width:900px) {
+        .Carousel-slider{
+                width:250px
+        }
+}
+
+@media screen and (max-width:500px){
+        .Carousel-slider{
+                margin: 0px;
+        }
+} 
+
+@media screen and (max-width:350px){
+
+        .slider-item{
+                width: 120px;
+                padding: 5px;
+        }
+
+        .skill-logo{
+                width: 100px;
+        }
+        
+        .Carousel-slider{
+                width: 150px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
