@@ -37,7 +37,7 @@ export default function Header({selectedPage, setSelectedPage}){
                               <Link  to={'project'} smooth={true} duration={600} onClick={() => setSelectedPage('project')}>
                                         
                                                   <div className='heading'>
-                                                            <p>{'<'}Project</p>
+                                                            <p>{'<'}Project{'/>'}</p>
                                                             <div className='line'></div>
                                                             </div>
                                                             </Link>
