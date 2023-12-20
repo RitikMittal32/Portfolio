@@ -18,7 +18,7 @@ const Projects = () => {
                               <div className="project-structure">
                                         {projects.map((item,index) => {
                                                   return(
-                                                            <div className="top">
+                                                            <div className="top" key={index}>
                                                             <div className="lines">
 
                                                             

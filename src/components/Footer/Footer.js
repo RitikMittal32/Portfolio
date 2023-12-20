@@ -10,7 +10,7 @@ export default function Footer(){
                     <div className="footer">
                               <div className="footer-box">
                                         <div className="footer-text">
-                                                            Let's Connect
+                                                            Let{`'`}s Connect
                                         </div>
                                         <div className="all-sites">
                                                   <div className="instagram">

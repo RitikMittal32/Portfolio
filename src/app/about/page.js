@@ -17,7 +17,7 @@ export default function About(){
                                         </div>
                                         <div className='description'>                                        
                                         <div className="about-description">
-                                                  I'm Ritik Mittal student of LNM Institue of Information and technology. A MERN StacK Web Developer and tech enthusiast seeking growth and create learning environment . My competencies are in creating dynamic and responsive website and provide cutting-edge output, UI Improvements, Code Debugging. If My skillset is compatible with your requirement than I will give my finest output.
+                                                 I{`'`}m Ritik Mittal student of LNM Institue of Information and technology. A MERN StacK Web Developer and tech enthusiast seeking growth and create learning environment . My competencies are in creating dynamic and responsive website and provide cutting-edge output, UI Improvements, Code Debugging. If My skillset is compatible with your requirement than I will give my finest output.
                                         </div>
                                         <div className="about-photo">
 
