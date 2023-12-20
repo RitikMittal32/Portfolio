@@ -38,37 +38,37 @@ export default function Hamburger({setSelectedPage}) {
                                         <div className='items'>
                                         <div className="items-details">
                               <Link  to={'home'} smooth={true} offset={-10} duration={400} onClick={() => setSelectedPage('home')}>
-                                                  <div className='item-name'> <p>{'<'}Home{'/>'}</p>
+                                                  <div className='item-name w'> <p>{'<'}Home{'/>'}</p>
                                                   <div className='line'></div>
                                                             </div> 
                                                             </Link>
                               <Link  to={'skill'} smooth={true} duration={500} onClick={() => setSelectedPage('skill')}>
-                                                  <div className='item-name'> <p>{'<'}Skill{'/>'}</p>
+                                                  <div className='item-name w'> <p>{'<'}Skill{'/>'}</p>
                                                   <div className="line"></div>
                                                             </div> 
                                                             </Link>
                               <Link  to={'project'} smooth={true} duration={600} onClick={() => setSelectedPage('project')}>
                                         
-                                                  <div className='item-name'>
+                                                  <div className='item-name w'>
                                                             <p>{'<'}Project{'/>'}</p>
                                                             <div className='line'></div>
                                                             </div>
                                                             </Link>
                               <a href='/about' onClick={() => setSelectedPage('about')}>
 
-                                                  <div className='item-name'><p>{'<'}About{'/>'}</p>
+                                                  <div className='item-name w'><p>{'<'}About{'/>'}</p>
                                                   <div className='line'></div>
                                                   </div>
                                                   </a>
                               <a href='/resume' onClick={() => setSelectedPage('resume')}>
 
-                                                  <div className='item-name'><p>{'<'}Resume{'/>'}</p>
+                                                  <div className='item-name w'><p>{'<'}Resume{'/>'}</p>
                                                   <div className='line'></div>
                                                   </div>
                                                   </a>
                               <Link  to={'contact'} smooth={true} duration={700} onClick={() => setSelectedPage('contact')}>
 
-                                                  <div className='item-name'><p>{'<'}Contacts{'/>'}</p>
+                                                  <div className='item-name w'><p>{'<'}Contacts{'/>'}</p>
                                                   <div className='line'></div>
                                                   </div>
                                                   </Link>

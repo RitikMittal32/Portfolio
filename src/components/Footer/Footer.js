@@ -9,7 +9,7 @@ export default function Footer(){
                     <section id="contact">
                     <div className="footer">
                               <div className="footer-box">
-                                        <div className="footer-text">
+                                        <div className="footer-text w">
                                                             Let{`'`}s Connect
                                         </div>
                                         <div className="all-sites">
@@ -57,7 +57,7 @@ export default function Footer(){
                                                   </div>
                                         </div>
                               </div>
-                              <div className="footer-bottom">
+                              <div className="footer-bottom w">
                                         <p>Designed and Developed by Ritik Mittal</p>
                               </div>
                     </div>

@@ -13,7 +13,7 @@ export default function Skill () {
           return(
                     <section id="skill">
                     <div className="sliders">
-                    <div className="skill-title">
+                    <div className="skill-title w">
                               <h1>{'<'}SKILLS{'/>'}</h1>
                               <div className="single-line"></div>
                     </div>

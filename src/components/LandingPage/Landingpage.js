@@ -9,7 +9,7 @@ export default function Landingpage() {
                     <div className='main-page'>
                               <div className="home">
                                         <div className="home-details">
-                                                  <div className="title">
+                                                  <div className="title w">
                                                             <p>Hi there, <br/>
                                                             
                                                             <Typewriter

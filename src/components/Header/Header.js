@@ -25,37 +25,37 @@ export default function Header({selectedPage, setSelectedPage}){
                                                   </div>
                                                   <div className="header-details flex">
                               <Link  to={'home'} smooth={true} offset={-10} duration={400} onClick={() => setSelectedPage('home')}>
-                                                  <div className='heading'> <p>{'<'}Home{'/>'}</p>
+                                                  <div className='heading w'> <p>{'<'}Home{'/>'}</p>
                                                   <div className='line'></div>
                                                             </div> 
                                                             </Link>
                               <Link  to={'skill'} smooth={true} duration={500} onClick={() => setSelectedPage('skill')}>
-                                                  <div className='heading'> <p>{'<'}Skill{'/>'}</p>
+                                                  <div className='heading w'> <p>{'<'}Skill{'/>'}</p>
                                                   <div className="line"></div>
                                                             </div> 
                                                             </Link>
                               <Link  to={'project'} smooth={true} duration={600} onClick={() => setSelectedPage('project')}>
                                         
-                                                  <div className='heading'>
+                                                  <div className='heading w'>
                                                             <p>{'<'}Project{'/>'}</p>
                                                             <div className='line'></div>
                                                             </div>
                                                             </Link>
                               <a href='/about' onClick={() => setSelectedPage('about')}>
 
-                                                  <div className='heading'><p>{'<'}About{'/>'}</p>
+                                                  <div className='heading w'><p>{'<'}About{'/>'}</p>
                                                   <div className='line'></div>
                                                   </div>
                                                   </a>
                               <a href='/resume' onClick={() => setSelectedPage('resume')}>
 
-                                                  <div className='heading'><p>{'<'}Resume{'/>'}</p>
+                                                  <div className='heading w'><p>{'<'}Resume{'/>'}</p>
                                                   <div className='line'></div>
                                                   </div>
                                                   </a>
                               <Link  to={'contact'} smooth={true} duration={700} onClick={() => setSelectedPage('contact')}>
 
-                                                  <div className='heading'><p>{'<'}Contacts{'/>'}</p>
+                                                  <div className='heading w'><p>{'<'}Contacts{'/>'}</p>
                                                   <div className='line'></div>
                                                   </div>
                                                   </Link>

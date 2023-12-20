@@ -9,7 +9,7 @@ const Projects = () => {
           return(
                     <>
                     <section id="project">
-                    <div className="main-title">
+                    <div className="main-title w">
                               <h1>{"<"}Projects{"/>"}</h1>
                               <div className="project-line"></div>
                     </div>
@@ -58,13 +58,13 @@ const Projects = () => {
                                                             
                                                             <div className="verticle-line"></div>
                                                             <div className="project-text">
-                                                            <div className="project-title">
+                                                            <div className="project-title w">
                                                                       {/* {item.name} */}
                                                                       IDAAR CELL LNMIIT
                                                             </div >
                                                             
                                                             <div className="single-line"></div>
-                                                            <div className="project-description">
+                                                            <div className="project-description w">
                                                                      <p> Mdondnfksjnfksj  fnsijdnfkjsnfkjsnfjsdnfnfk jsadfbuwshbfuwbsfwghv fhuasbc shbdcwiuebdw qiuebdwiubfdiwejbi </p>
                                                             </div>
                                                             <div className="project-view">
