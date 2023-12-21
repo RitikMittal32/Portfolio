@@ -1,9 +1,9 @@
 export const projects =  [
           {
                     name:"TEDXLNMIIT",
-                    description:"TedXLnmiit is the event organised in my college LNMIIT. Our TedX Web dev team create TedXLNMIIT website and I am currently working as a  Frontend developer in this team. Tech stack: Next.js, TailwindCSS",
+                    description:"TedXLnmiit is the event organised in my college LNMIIT.I am currently working as a Frontend developer in this project. Tech stack: Next.js, TailwindCSS",
                     img:"/img/tedx.png",
-                    ViewLink:"",
+                    ViewLink:"https://www.tedxlnmiit.live/",
                     
 
           },
