@@ -56,7 +56,7 @@ const Projects = () => {
                                                           alt={`${item.name}`}
                                                           /> :
                                                           <>          
-                                                          <p> Revealing Soon!</p>
+                                                          <p className="w"> Revealing Soon!</p>
                                                             </>
                                                           }
                                                           
