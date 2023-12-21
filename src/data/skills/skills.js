@@ -24,11 +24,11 @@ export const skills = [
                     logo:"/logo-image/nodejs.png"
           },
           {
-                    name:"HTML5",
+                    name:"HTML",
                     logo:"/logo-image/html.png"
           },
           {
-                    name:"CSS3",
+                    name:"CSS",
                     logo:"/logo-image/Css.webp"
           },
           {
@@ -37,7 +37,7 @@ export const skills = [
           },
           {
                     name:"Tailwind CSS",
-                    logo:"/logo-image/tailwindcss.jpeg"
+                    logo:"/logo-image/tailwindcss.png"
           },
           {
                     name:"Express Js",

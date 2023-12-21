@@ -49,7 +49,7 @@ export default function Home() {
       /> 
       </div>: 
       <div className='main'>
-      <div className="left-0 top-0  w-full  border-b border-gray-300 bg-gradient-to-b from-zinc-200  pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit main-heading">
+      <div className="left-0 top-0  w-full  border-b  pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit main-heading">
         <Header selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
       </div>
       <motion.div onViewportEnter={() => setSelectedPage("home")}>

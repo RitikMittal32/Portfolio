@@ -90,9 +90,9 @@ const Carousel = () => {
 
 
 	useEffect(() => {
-		cardsParentElm.current.addEventListener("mouseenter", pauseSlider);
-		cardsParentElm.current.addEventListener("mouseleave", startSlider);
-		startSlider();
+		cardsParentElm.current.addEventListener("mouseenter",pauseSlider());
+		cardsParentElm.current.addEventListener("mouseleave",startSlider());
+		// startSlider();
 	}, []);
 
 	const startSlider = () => {
@@ -104,7 +104,7 @@ const Carousel = () => {
 				scrollCoolDownTime,
 				skills
 			);
-		}, 2000);
+		}, 1000);
 	};
 
 	const pauseSlider = () => {
@@ -115,8 +115,8 @@ const Carousel = () => {
 
 	return(
 		<>
-		<div className='skills-set'>
-		<div className="carousel" ref={cardsParentElm}>
+		<div className='skills-set' ref={cardsParentElm}>
+		<div className="carousel" >
 			<div className="carousel-backward carousel-arrow">
 				<button onClick={() => {
 					scrollPrevious(

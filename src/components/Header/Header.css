@@ -66,6 +66,10 @@ a{
           top:-8px
 }
 
+.mid{
+          transform: rotateY(20deg);
+}
+
 .hamburger-list p{
 
           text-align: center;

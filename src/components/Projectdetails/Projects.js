@@ -3,6 +3,7 @@ import { projects } from "@/data/projects/projectlist";
 import './Project.css';
 import Image from "next/image";
 import Background from "../Background/Background";
+import Link from "next/link";
 
 const Projects = () => {
 
@@ -46,36 +47,52 @@ const Projects = () => {
                                                             <snap className="t_over"></snap>
                                                             <snap className="t_over"></snap> */}
                                                           
-                                                            <div className="project-image">
-                                                                      <Image 
-                                                                      src='/uk.jpg'
-                                                                      height={100}
-                                                                      width={100}
-                                                                      alt="uk"
-                                                                      />
-                                                                      
-                                                            </div>
+                                                          <div className="project-image">
+                                                          {item.img ?
+                                                          <Image 
+                                                          src={`${item.img}`}
+                                                          height={100}
+                                                          width={200}
+                                                          alt={`${item.name}`}
+                                                          /> :
+                                                          <>          
+                                                          <p> Revealing Soon!</p>
+                                                            </>
+                                                          }
+                                                          
+                                                            </div> 
+                                                            
+                                                            
                                                             
                                                             <div className="verticle-line"></div>
                                                             <div className="project-text">
                                                             <div className="project-title w">
-                                                                      {/* {item.name} */}
-                                                                      IDAAR CELL LNMIIT
+                                                                      {item.name}
+                                                                      
                                                             </div >
                                                             
                                                             <div className="single-line"></div>
                                                             <div className="project-description w">
-                                                                     <p> Mdondnfksjnfksj  fnsijdnfkjsnfkjsnfjsdnfnfk jsadfbuwshbfuwbsfwghv fhuasbc shbdcwiuebdw qiuebdwiubfdiwejbi </p>
+                                                                     <p> {item.description} </p>
                                                             </div>
+                                                            {item.ViewLink ?
+                                                            
                                                             <div className="project-view">
-                                                                      <div className="pview">
-                                                                                <button>VIEW</button>
-                                                                      </div>
-                                                                      <div className="demo">
-                                                                                <button>DEMO</button>
-                                                                      </div>
+                                                            <div className="pview">
+                                                            <Link
+                                                            href={`${item.ViewLink}`}
+                                                            target="_blank"
+                                                            >   <button>VIEW</button></Link>
                                                             </div>
-                                                            </div>
+                                                            
+                                                            </div>:
+                                                            <>
+                                                            </>
+                                                            }
+
+                                                  </div>
+                                                             
+                                                            
                                                   </div>
                                                   <div className="downside-effect"></div>
                                                   </div>

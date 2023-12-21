@@ -8,11 +8,14 @@ export default function Hamburger({setSelectedPage}) {
           const first = useRef();
           const third = useRef();
           const list  = useRef();
+          const second  = useRef();
+
 
           const handleMove = () => {
                     first.current.classList.toggle("down");
                     third.current.classList.toggle("up"); 
                     list.current.classList.toggle("show");
+                    second.current.classList.toggle("mid");
           }
 
 
@@ -24,7 +27,7 @@ export default function Hamburger({setSelectedPage}) {
                                                             
                                                             <span></span>
                                                   </div>
-                                                  <div className='structure'>
+                                                  <div className='structure' ref={second}>
                                                             <span></span>
                                                   </div>
                                                    <div className='structure' ref={third}>
