@@ -47,7 +47,7 @@ export default function Header({selectedPage, setSelectedPage}){
                                                   <div className='line'></div>
                                                   </div>
                                                   </a>
-                              <a href='https://drive.google.com/file/d/12iqope6tlIvNLN7iDE1f0ajAS-cSi9oA/view?usp=sharing' target='_blank' onClick={() => setSelectedPage('resume')}>
+                              <a href='https://drive.google.com/file/d/15ShzddQBljmLqWnR3awo3_5kj6M7Di2w/view?usp=sharing' target='_blank' onClick={() => setSelectedPage('resume')}>
 
                                                   <div className='heading w'><p>{'<'}Resume{'/>'}</p>
                                                   <div className='line'></div>

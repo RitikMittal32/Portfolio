@@ -125,6 +125,11 @@
         /* transition: all 1s ease-in; */
 }
 
+.okk{
+        position: relative;
+        left : 270px;
+}
+
 .line6{
         opacity: 0;
 }

@@ -98,6 +98,16 @@ const Projects = () => {
                                                   </div>
                                                   </div>
                                          )})}
+                                                    <div className="box-line okk">
+                                                                      <Image 
+                                                                      src={'/sites/coding.png'}
+                                                                      height={15}
+                                                                      width={15}
+                                                                      alt="coding"
+                                                                      className="coimg"
+                                                                      />
+                                                            </div>
+
                               </div>
                     </div>
                     

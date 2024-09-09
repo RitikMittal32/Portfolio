@@ -1,9 +1,17 @@
 export const projects =  [
           {
                     name:"TEDXLNMIIT",
-                    description:"TedXLnmiit is the event organised in my college LNMIIT.I am currently working as a Frontend developer in this project. Tech stack: Next.js, TailwindCSS",
+                    description:"Designed and developed the official website of TedXLNMIIT, developed through team collaboration, allowing user to check speaker details, booking ticked and track event status. Tech stack: Next.js, TailwindCSS",
                     img:"/img/tedx.png",
                     ViewLink:"https://www.tedxlnmiit.live/",
+                    
+
+          },
+          {
+                    name:"E-MART",
+                    description:"EMART is a full-stack ecommerce platform with admin roles for product management and user roles for product purchasing. Tech stack: Next.js, TailwindCSS",
+                    img:"/img/image.png",
+                    ViewLink:"https://e-mart-kappa.vercel.app/",
                     
 
           },
@@ -16,47 +24,11 @@ export const projects =  [
                     
           },
           {
-                    name:"IDAAR-CELL LNMIIT",
-                    description:"It is college administration project.It will be completed under the guidance of senior and college professor .I am currently working as a Backend Developer in this project TechStack: Nodejs, MySql",
-                    img:"",
-                    ViewLink:"",
-
-          },
-          {
-                    name:"DESPORTIVOS",
-                    description:"Desportivos in my college sports fest LNMIIT. I am currently working as a Frontend developer in this project. TechStack:ReactJs",
-                    img:"",
-                    ViewLink:"",
-
-          },
-          // {
-          //           name:"ZOMATO CLONE",
-          //           description:"By using API of Zomato. I'm created website which is lookalike as Zomato. You can check it out. TechStack: React.js, Firebase",
-          //           img:"",
-          //           ViewLink:"https://zomato-kappa-five.vercel.app/",
-
-          // },
-          {
                     name:"TRAVEL",
-                    description:"It is my practice project. By using Figma design,I have created this project. TechStack : HTML, CSS, JAVASCRIPT",
+                    description:"Travel is the single page landing site which is based on UI/UX design. TechStack : HTML, CSS, JAVASCRIPT",
                     img:"/img/Travel.png",
                     ViewLink:"https://travel-iota-virid.vercel.app/",
 
           },
-          {
-                    name:"TOUR PLANNER",
-                    description:"It is my practice project based on you can plan your destination whenever you want. Techstack : ReactJs,NodeJs,MongoDb",
-                    img:"/img/tour.png",
-                    ViewLink:"https://tour-rust.vercel.app/",
-                    
-                    
-          },
 
-          // {
-          //           name:"",
-          //           description:"",
-          //           img:"",
-          //           techstack:"",
-          //           ViewLink:"",
-          // },
 ]
