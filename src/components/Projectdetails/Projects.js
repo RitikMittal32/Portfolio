@@ -33,7 +33,7 @@ const Projects = () => {
                                                                       />
                                                             </div>
                                                             <div className={`main-line line${index+1}`}></div>
-
+                      
                                                             </div>
                                                   <div className="tilt-box-wrap">
                                                   <div className="tilt-box">
@@ -98,15 +98,7 @@ const Projects = () => {
                                                   </div>
                                                   </div>
                                          )})}
-                                                    <div className="box-line okk">
-                                                                      <Image 
-                                                                      src={'/sites/coding.png'}
-                                                                      height={15}
-                                                                      width={15}
-                                                                      alt="coding"
-                                                                      className="coimg"
-                                                                      />
-                                                            </div>
+                                                
 
                               </div>
                     </div>

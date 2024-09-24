@@ -6,6 +6,13 @@
           margin-bottom: 20px;
 }
 
+.footer-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .all-sites{
           display: flex;
           align-items: center;
@@ -25,6 +32,100 @@
           justify-content: center;
           height: 46px;
 }
+
+/* Contact Form Styles */
+/* Contact Form Container */
+.contact-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('/path/to/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.contact-form{
+  width: 80%;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent */
+  backdrop-filter: blur(10px); /* Blur the background */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+/* Contact Form */
+.contact-form h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-form p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white */
+  font-size: 1rem;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: none;
+  border-radius: 20px;
+}
+
+/* Submit Button */
+.submit-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: rgb(1, 1, 68);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: rgb(5, 5, 148);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-form-container {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+        
 
 
 

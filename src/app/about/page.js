@@ -18,7 +18,11 @@ export default function About(){
                                         </div>
                                         <div className='description'>                                        
                                         <div className="about-description w">
-                                                 I{`'`}m Ritik Mittal student of LNM Institue of Information and technology. A MERN Stack Web Developer and tech enthusiast seeking growth and fostering learning environment . My competencies are in creating dynamic and responsive website and provide cutting-edge output, UI Improvements, Code Debugging. If My skillset is compatible with your requirement than I will give my finest output.
+                                        I{"'"}m Ritik Mittal, a MERN Stack Web Developer with expertise in creating scalable web applications using ReactJS, NextJS, NodeJS, and MongoDB. I specialize in frontend design with HTML, CSS, and Tailwind CSS, and implement secure backend solutions with JWT tokens and Nodemailer.
+
+My skills include API development and testing with Postman, version control with Git and GitHub, and MATLAB for technical computing. I focus on clean, efficient code, responsive design, and seamless user experiences across all platforms.
+
+
                                         </div>
                                         <div className="about-photo">
                                                         <Image 
