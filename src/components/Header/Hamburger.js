@@ -63,7 +63,7 @@ export default function Hamburger({setSelectedPage}) {
                                                   <div className='line'></div>
                                                   </div>
                                                   </a>
-                              <a href='https://drive.google.com/file/d/12iqope6tlIvNLN7iDE1f0ajAS-cSi9oA/view?usp=sharing' target='_blank'  onClick={() => setSelectedPage('resume')}>
+                              <a href='https://drive.google.com/file/d/1WMLcG4RoV0-SZKJODvp62l2ukiWWjmG2/view?usp=sharing' target='_blank'  onClick={() => setSelectedPage('resume')}>
 
                                                   <div className='item-name w'><p>{'<'}Resume{'/>'}</p>
                                                   <div className='line'></div>

@@ -10,7 +10,7 @@ export default function Landingpage() {
                               <div className="home">
                                         <div className="home-details">
                                                   <div className="title w">
-                                                            <p>Hi there, <br/>
+                                                            <p>Hi there, <span className="wave">👋</span> <br/>
                                                             
                                                             <Typewriter
                                                                       words={[`I'am Ritik Mittal`]}

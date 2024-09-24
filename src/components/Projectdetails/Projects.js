@@ -47,20 +47,23 @@ const Projects = () => {
                                                             <snap className="t_over"></snap>
                                                             <snap className="t_over"></snap> */}
                                                           
-                                                          <div className="project-image">
-                                                          {item.img ?
-                                                          <Image 
-                                                          src={`${item.img}`}
-                                                          height={100}
-                                                          width={200}
-                                                          alt={`${item.name}`}
-                                                          /> :
-                                                          <>          
-                                                          <p className="w"> Revealing Soon!</p>
-                                                            </>
-                                                          }
-                                                          
-                                                            </div> 
+                                                            <div className="project-image">
+                                                              {item.img ? (
+                                                                <div className="image-wrapper">
+                                                                  <Image
+                                                                    src={`${item.img}`}
+                                                                    height={100}
+                                                                    width={200}
+                                                                    alt={`${item.name}`}
+                                                                    className="project-img"
+                                                                  />
+                                                                </div>
+                                                              ) : (
+                                                                <div className="coming-soon">
+                                                                  <p className="coming-text">Revealing Soon!</p>
+                                                                </div>
+                                                              )}
+                                                            </div>
                                                             
                                                             
                                                             

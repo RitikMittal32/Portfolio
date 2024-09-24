@@ -9,7 +9,7 @@ export const projects =  [
           },
           {
                     name:"E-MART",
-                    description:"EMART is a full-stack ecommerce platform with admin roles for product management and user roles for product purchasing. Tech stack: Next.js, TailwindCSS",
+                    description:"EMART is a full-stack ecommerce platform with admin roles for product management and user roles for product purchasing. Tech stack: React.js, Node.js, MongoDb",
                     img:"/img/image.png",
                     ViewLink:"https://e-mart-kappa.vercel.app/",
                     
@@ -29,6 +29,5 @@ export const projects =  [
                     img:"/img/Travel.png",
                     ViewLink:"https://travel-iota-virid.vercel.app/",
 
-          },
-
+          }
 ]

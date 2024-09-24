@@ -52,34 +52,34 @@ export default function Footer() {
                                                             <div className="contact-form">
                                                                       <form onSubmit={(e) => handleSubmit(e)}>
                                                                                 <div className="form-group">
-                                                                                          <label htmlFor="name">Name</label>
+                                                                                          {/* <label htmlFor="name">Name</label> */}
                                                                                           <input
                                                                                                     type="text"
                                                                                                     id="name"
                                                                                                     value={name}
                                                                                                     onChange={(e) => setName(e.target.value)}
-                                                                                                    placeholder="Enter your name"
+                                                                                                    placeholder="👨‍💻 Enter your name"
                                                                                                     required
                                                                                           />
                                                                                 </div>
                                                                                 <div className="form-group">
-                                                                                          <label htmlFor="email">Email</label>
+                                                                                          {/* <label htmlFor="email">Email</label> */}
                                                                                           <input
                                                                                                     type="email"
                                                                                                     id="email"
                                                                                                     value={email}
                                                                                                     onChange={(e) => setEmail(e.target.value)}
-                                                                                                    placeholder="Enter your email"
+                                                                                                    placeholder="📬 Enter your email"
                                                                                                     required
                                                                                           />
                                                                                 </div>
                                                                                 <div className="form-group">
-                                                                                  <label htmlFor="message">Message</label>
+                                                                                  {/* <label htmlFor="message">Message</label> */}
                                                                                   <textarea
                                                                                     id="message"
                                                                                     value={message}
                                                                                     onChange={(e) => setMessage(e.target.value)}
-                                                                                    placeholder="Enter your message"
+                                                                                    placeholder="🛈 Enter your message"
                                                                                     required
                                                                                   />
                                                                                 </div>
