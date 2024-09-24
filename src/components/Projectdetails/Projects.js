@@ -52,7 +52,7 @@ const Projects = () => {
                                                                 <div className="image-wrapper">
                                                                   <Image
                                                                     src={`${item.img}`}
-                                                                    height={100}
+                                                                    height={200}
                                                                     width={200}
                                                                     alt={`${item.name}`}
                                                                     className="project-img"
