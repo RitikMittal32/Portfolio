@@ -11,7 +11,7 @@ export const projects =  [
                     name:"E-MART",
                     description:"EMART is a full-stack ecommerce platform with admin roles for product management and user roles for product purchasing. Tech stack: React.js, Node.js, MongoDb",
                     img:"/img/image.png",
-                    ViewLink:"https://e-mart-kappa.vercel.app/",
+                    ViewLink:"https://e-mart-1.onrender.com/",
                     
 
           },
