@@ -18,15 +18,18 @@ export default function About(){
                                         </div>
                                         <div className='description'>                                        
                                         <div className="about-description w">
-                                        I{"'"}m Ritik Mittal, a MERN Stack Web Developer with expertise in creating scalable web applications using ReactJS, NextJS, NodeJS, and MongoDB. I specialize in frontend design with HTML, CSS, and Tailwind CSS, and implement secure backend solutions with JWT tokens and Nodemailer.
+                                                  My name is Ritik Mittal, and I am currently pursuing a B.Tech in Electronics and Communication Engineering at LNMIIT (2022–2026). I have a strong foundation in Data Structures and Algorithms and experience in full-stack development using React.js, Node.js, MongoDB, and Next.js. I have also worked on AI-based systems involving RAG pipelines, Dialogflow, Pinecone, and LangChain.
 
-My skills include API development and testing with Postman, version control with Git and GitHub, and MATLAB for technical computing. I focus on clean, efficient code, responsive design, and seamless user experiences across all platforms.
+                                                  I have worked on projects such as Intervue, a platform that enables teachers to create live questions and allows students to participate and view results in real time. I also developed the LNMIIT Chatbot, which helps students access college-related information such as faculty details, library books, and general queries. Additionally, I built E-Mart, an e-commerce platform that allows users to browse products and place orders online.
 
+                                                  Along with this, I have contributed as a Web Developer for TEDxLNMIIT and served as a Core Member of the Google Developer Group on campus.
+
+                                                  I would like to inquire if there are any opportunities for a Software Development Engineer (SDE) role at your organization. I have attached my resume for your reference and would appreciate your time in reviewing my profile.
 
                                         </div>
                                         <div className="about-photo">
                                                         <Image 
-                                                        src='/Ritik.jpg'
+                                                          src='/Ritik(passport).jpeg'
                                                         width={400}
                                                         height={600}
                                                         alt='ritik'
